@@ -12,16 +12,25 @@ public class PlayerMovementBehaviour : MonoBehaviour {
 
   [FormerlySerializedAs( "playerController" )] [ SerializeField ] private Rigidbody playerRigidbody;
   [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
-  [ SerializeField ] private float playerSpeed = 1f;
+  [ SerializeField ] private float playerSpeed;
+  [ SerializeField ] private float jumpForce = 20f;
   
   private PlayerMovementStateMachine playerMovementStateMachine;
   private Vector3 movementVector;
+  private float moveMultiplier;
+
+  private void Awake( ) {
+    playerMovementStateMachine = new PlayerMovementStateMachine( new IdlePlayerState(), this );
+  }
 
   private void FixedUpdate( ) {
-    
     playerRigidbody.AddForce( playerRigidbody.transform.TransformDirection(movementVector) * playerSpeed );
   }
-  
+
+  private void Update( ) {
+    playerMovementStateMachine.Update();
+  }
+
   private void OnEnable( ) {
     AddListeners( );
   }
@@ -52,7 +61,7 @@ public class PlayerMovementBehaviour : MonoBehaviour {
   }
   
   private void Jump( InputValue inputValue ) {
-    
+    playerRigidbody.AddForce( Vector3.up * jumpForce );
   }
 
   
