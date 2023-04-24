@@ -653,11 +653,12 @@ GameObject:
   - component: {fileID: 4946214419067503057}
   - component: {fileID: 4946214419066243143}
   - component: {fileID: 4946214419065168813}
-  - component: {fileID: 4946214419067238317}
   - component: {fileID: 4946214419067238315}
   - component: {fileID: 4946214419067238314}
   - component: {fileID: 4946214419067238316}
   - component: {fileID: 4946214419067238318}
+  - component: {fileID: 4946214419067238319}
+  - component: {fileID: 4946214419067238320}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -784,25 +785,7 @@ MonoBehaviour:
   inputReceiverBehaviour: {fileID: 4946214419067238314}
   cameraTransform: {fileID: 4946214419067487603}
   playersBody: {fileID: 4946214419067503057}
-  mouseSensitivity: 100
---- !u!143 &4946214419067238317
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4946214419067238313}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  mouseSensitivity: 60
 --- !u!114 &4946214419067238318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,9 +798,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7fedd3d67c8df47a18bfbb929725d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerController: {fileID: 4946214419067238317}
+  playerRigidbody: {fileID: 4946214419067238319}
   inputReceiverBehaviour: {fileID: 4946214419067238314}
-  playerSpeed: 0.5
+  playerSpeed: 10
+--- !u!54 &4946214419067238319
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946214419067238313}
+  serializedVersion: 2
+  m_Mass: 0.5
+  m_Drag: 1
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!136 &4946214419067238320
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946214419067238313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4946214419067487603
 Transform:
   m_ObjectHideFlags: 0

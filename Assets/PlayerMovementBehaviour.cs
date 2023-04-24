@@ -4,21 +4,22 @@ using System.Collections.Generic;
 using Common;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 using UnityTemplateProjects;
 using static UnityEngine.InputSystem.InputAction;
 
 public class PlayerMovementBehaviour : MonoBehaviour {
 
-  [ SerializeField ] private CharacterController playerController;
+  [FormerlySerializedAs( "playerController" )] [ SerializeField ] private Rigidbody playerRigidbody;
   [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
-  [ SerializeField ] private float playerSpeed = 0.5f;
+  [ SerializeField ] private float playerSpeed = 1f;
   
   private PlayerMovementStateMachine playerMovementStateMachine;
   private Vector3 movementVector;
 
   private void FixedUpdate( ) {
     
-    playerController.Move( playerController.transform.TransformDirection(movementVector) * playerSpeed );
+    playerRigidbody.AddForce( playerRigidbody.transform.TransformDirection(movementVector) * playerSpeed );
   }
   
   private void OnEnable( ) {
@@ -32,13 +33,13 @@ public class PlayerMovementBehaviour : MonoBehaviour {
   private void AddListeners( ) {
     inputReceiverBehaviour.OnMovePressed += Move;
     inputReceiverBehaviour.OnRunPressed += Run;
-  //  inputReceiverBehaviour.OnJumpPressed += Jump;
+    inputReceiverBehaviour.OnJumpPressed += Jump;
   }
 
   private void RemoveListeners( ) {
     inputReceiverBehaviour.OnMovePressed -= Move;
     inputReceiverBehaviour.OnRunPressed -= Run;
-  //  inputReceiverBehaviour.OnJumpPressed -= Jump;
+    inputReceiverBehaviour.OnJumpPressed -= Jump;
   }
 
   private void Move( InputValue inputValue ) {
@@ -47,9 +48,10 @@ public class PlayerMovementBehaviour : MonoBehaviour {
   }
   
   private void Run( InputValue inputValue ) {
+    
   }
   
-  private void Jump( CallbackContext callbackContext ) {
+  private void Jump( InputValue inputValue ) {
     
   }
 
