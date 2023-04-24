@@ -493,6 +493,8 @@ GameObject:
   m_Component:
   - component: {fileID: 92749289}
   - component: {fileID: 85186707}
+  - component: {fileID: 92296595}
+  - component: {fileID: 92296594}
   m_Layer: 0
   m_Name: FPS_Character_prefab
   m_TagString: Untagged
@@ -500,6 +502,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &92296594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92296593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b06c5a3ec118948bf5d32fd3fa17a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingBehaviour: {fileID: 92296595}
+  flashParent: {fileID: 92730223}
+  flashPrefabs:
+  - {fileID: 199458, guid: 51b76f616384d4946bed4ecc9a6c2c3e, type: 3}
+  - {fileID: 199458, guid: 487eef9aff9d0f543836d5af5ab26430, type: 3}
+  - {fileID: 199458, guid: 7b6a7e40bd9ccc0489274923930761c7, type: 3}
+  - {fileID: 199458, guid: 29d86feb88bf925428f9d7de6d4b401f, type: 3}
+  - {fileID: 199458, guid: 4aa4c63f0f9d6a84dbaeed6b9caeca80, type: 3}
+--- !u!114 &92296595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92296593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd1629a7f5e739248aa2a003572605b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputReceiverBehaviour: {fileID: 4946214419067238314}
 --- !u!1 &92299135
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 92730223}
   m_Layer: 0
-  m_Name: muzzelSpawn
+  m_Name: FlashContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,7 +1225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &92506271
 GameObject:
   m_ObjectHideFlags: 0
@@ -4148,6 +4183,7 @@ GameObject:
   - component: {fileID: 4946214419067238314}
   - component: {fileID: 4946214419067238316}
   - component: {fileID: 4946214419067238318}
+  - component: {fileID: 4946214419067238321}
   - component: {fileID: 4946214419067238317}
   - component: {fileID: 4946214419067238319}
   - component: {fileID: 4946214419067238320}
@@ -4305,7 +4341,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 4946214419067238319}
   inputReceiverBehaviour: {fileID: 4946214419067238314}
-  animator: {fileID: 85186707}
   playerSpeed: 20
   runningSpeedModifier: 2
   jumpForce: 200
@@ -4339,6 +4374,20 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4946214419067238321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4946214419067238313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec0e1b8d05e2634f9c61b09c9e4c172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 85186707}
+  inputReceiverBehaviour: {fileID: 4946214419067238314}
 --- !u!4 &4946214419067487603
 Transform:
   m_ObjectHideFlags: 0
