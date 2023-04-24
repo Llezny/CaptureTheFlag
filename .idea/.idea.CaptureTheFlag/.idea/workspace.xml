@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c96639bb-cdcf-40ff-8e8f-5d26be8c0427" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMovementBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CameraMovementBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/GunAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/GunAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/red_dot.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/red_dot.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerMovementBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerMovementBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +19,21 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CameraMovementBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerAnimationBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerIdleSMB.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerMovementBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/InputValue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/Samples~/SimpleDemo/SimpleController_UsingPlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OjmuC8zbqfnQFeMZcDAIYCt5ap" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />

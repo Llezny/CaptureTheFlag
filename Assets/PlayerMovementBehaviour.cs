@@ -10,11 +10,15 @@ using static UnityEngine.InputSystem.InputAction;
 
 public class PlayerMovementBehaviour : MonoBehaviour {
 
-  [FormerlySerializedAs( "playerController" )] [ SerializeField ] private Rigidbody playerRigidbody;
+  [ Header( "References" ) ]
+  [ SerializeField ] private Rigidbody playerRigidbody;
   [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
-  [ SerializeField ] private float playerSpeed;
+
+  [ Header( "Movement Settings" ) ]
+  [ SerializeField ] private float playerSpeed = 10;
+  [ SerializeField ] private float runningSpeedModifier = 2;
   [ SerializeField ] private float jumpForce = 20f;
-  
+
   private PlayerMovementStateMachine playerMovementStateMachine;
   private Vector3 movementVector;
   private float moveMultiplier;
@@ -33,6 +37,7 @@ public class PlayerMovementBehaviour : MonoBehaviour {
 
   private void OnEnable( ) {
     AddListeners( );
+ //   SceneLinkedSMB<PlayerMovementBehaviour>.Initialise( animator, this );
   }
     
   private void OnDisable( ) {
@@ -57,12 +62,14 @@ public class PlayerMovementBehaviour : MonoBehaviour {
   }
   
   private void Run( InputValue inputValue ) {
-    
+    runningSpeedModifier = inputValue.isPressed ? 2 : 1;
   }
   
   private void Jump( InputValue inputValue ) {
+    if ( !inputValue.isPressed )
+      return;
     playerRigidbody.AddForce( Vector3.up * jumpForce );
   }
-
+  
   
 }

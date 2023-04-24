@@ -8,17 +8,20 @@ public class CameraMovementBehaviour : MonoBehaviour {
     [ SerializeField ] private Transform cameraTransform;
     [ SerializeField ] private Transform playersBody;
 
-    [Header( "Parameters" )] 
-    [SerializeField] private float mouseSensitivity;
+    [ Header( "Parameters" ) ] 
+    [ SerializeField ] private float mouseSensitivity;
+    [ SerializeField ] private bool showCursor;
 
     private float xRotation;
 
     private void OnEnable( ) {
         inputReceiverBehaviour.OnLookPressed += HandleMouseMovement;
+        Cursor.visible = showCursor;
     }
     
     private void OnDisable( ) {
         inputReceiverBehaviour.OnLookPressed -= HandleMouseMovement;
+        Cursor.visible = true;
     }
     
     private void HandleMouseMovement( InputValue inputValue ) {
