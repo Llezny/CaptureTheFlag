@@ -14,6 +14,4 @@ public class ZombieIdleSMB : SceneLinkedSMB<ZombieBehaviour> {
             m_MonoBehaviour.StartWandering( );
         }
     }
-    
-
 }
