@@ -5,7 +5,6 @@ namespace CaptureTheFlag.Common  {
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
         
         private static T instance;
-
         public static T Instance {
             get {
                 if ( instance is null ) {
@@ -17,12 +16,13 @@ namespace CaptureTheFlag.Common  {
                 return instance;
             }
         }
-
-        private void Awake( ) {
+        
+        protected virtual void Awake( ) { }
+    }
+    
+    public abstract class PersistentSingleton<T> : Singleton<T> where T : MonoBehaviour {
+        protected override void Awake( ) {
             DontDestroyOnLoad( this );
-            OnAwake( );
         }
-
-        protected void OnAwake( ) { }
     }
 }
