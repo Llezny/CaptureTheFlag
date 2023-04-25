@@ -4,7 +4,7 @@ using Common;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ShootingBehaviour : MonoBehaviour {
+public class GunBehaviour : MonoBehaviour {
     
     public Action onShoot;
     

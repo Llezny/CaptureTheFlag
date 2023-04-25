@@ -1,17 +1,18 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ScreenShakeOnShootBehaviour : MonoBehaviour {
 
     [ SerializeField ] private Camera mainCamera;
-    [ SerializeField ] private ShootingBehaviour shootingBehaviour;
+    [FormerlySerializedAs( "shootingBehaviour" )] [ SerializeField ] private GunBehaviour gunBehaviour;
 
     private void OnEnable( ) {
-        shootingBehaviour.onShoot += ShakeCamera;
+        gunBehaviour.onShoot += ShakeCamera;
     }
 
     private void OnDisable( ) {
-        shootingBehaviour.onShoot -= ShakeCamera;
+        gunBehaviour.onShoot -= ShakeCamera;
     }
 
     private void ShakeCamera( ) {

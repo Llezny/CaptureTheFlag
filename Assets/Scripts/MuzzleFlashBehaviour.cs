@@ -7,17 +7,17 @@ using UnityEngine.Serialization;
 
 public class MuzzleFlashBehaviour : MonoBehaviour {
     
-    [ SerializeField ] private ShootingBehaviour shootingBehaviour;
+    [FormerlySerializedAs( "shootingBehaviour" )] [ SerializeField ] private GunBehaviour gunBehaviour;
     [ SerializeField ] private Transform flashParent;
     [ SerializeField ] private List<GameObject> flashPrefabs;
 
 
     private void OnEnable( ) {
-        shootingBehaviour.onShoot += ShowFlash;
+        gunBehaviour.onShoot += ShowFlash;
     }
     
     private void OnDisable( ) {
-        shootingBehaviour.onShoot -= ShowFlash;
+        gunBehaviour.onShoot -= ShowFlash;
     }
 
     private void ShowFlash( ) {

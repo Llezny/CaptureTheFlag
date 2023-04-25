@@ -27,8 +27,10 @@ public class ZombieBehaviour : MonoBehaviour, IEnemy {
         GetPlayersList( );
         ZombieIdleSMB.Initialise( animator, this );
     }
-    
-    public void GetHit( ) { }
+
+    public void GetHit( ) {
+        Debug.LogError("HIT HIT HIT");
+    }
 
     public void Running( ) {
         GoTowardsTarget( );
