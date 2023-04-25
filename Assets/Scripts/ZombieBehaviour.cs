@@ -12,12 +12,14 @@ public class ZombieBehaviour : MonoBehaviour, IEnemy {
     public static int isWalkingHash = Animator.StringToHash( "isWalking" );
     public static int isRunningHash = Animator.StringToHash( "isRunning" );
     public static int inPursuitHash = Animator.StringToHash( "inPursuit" );
+    public static int attackHash = Animator.StringToHash( "isAttacking" );
     
     [ SerializeField ] private Animator animator;
     [ SerializeField ] private NavMeshAgent navMeshAgent;
     
-    private float maxDistanceToPursuit = 15f;
-    private float maxDistanceToRun = 5f;
+    private float maxDistanceToPursuit = 20f;
+    private float maxDistanceToRun = 10f;
+    private float maxDistanceToAttack = 3f;
     public float DistanceToPlayer => Vector3.Distance( target.position, transform.position );
     
     private Transform target;
@@ -34,8 +36,12 @@ public class ZombieBehaviour : MonoBehaviour, IEnemy {
 
     public void Running( ) {
         GoTowardsTarget( );
-        if ( navMeshAgent.remainingDistance  > maxDistanceToRun ) {
+        if ( navMeshAgent.remainingDistance > maxDistanceToRun ) {
             animator.SetBool( isRunningHash, false );
+        }
+
+        if ( navMeshAgent.remainingDistance < maxDistanceToAttack ) {
+            animator.SetTrigger( attackHash );
         }
     }
 
@@ -104,6 +110,12 @@ public class ZombieBehaviour : MonoBehaviour, IEnemy {
     
     private void GetPlayersList( ) {
         players = GameObject.FindGameObjectsWithTag( "Player" ).ToList();
+    }
+
+    public void AttackTarget( ) {
+        if ( target.TryGetComponent<PlayerHealthBehaviour>( out var playerHealth ) ) {
+            playerHealth.GetHit();
+        }
     }
 
 }
