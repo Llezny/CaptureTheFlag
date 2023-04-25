@@ -38,7 +38,6 @@ public class ZombieBehaviour : MonoBehaviour, IEnemy {
     }
 
     public bool FindTarget( out GameObject target ) {
-        Debug.Log( "Looking for target" );
         if ( players == null || players.Count == 0 ) {
             GetPlayersList( );
         }
