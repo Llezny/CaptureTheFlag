@@ -9,16 +9,17 @@ public class ShootingBehaviour : MonoBehaviour {
     public Action onShoot;
     
     [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
+    [ SerializeField ] private Transform bulletSpawnPoint;
     private bool isShooting;
     private bool isWaitingForNextFire;
     private Common.Timer cooldownTimer;
 
     private void Update( ) {
         cooldownTimer?.Tick( Time.deltaTime );
+        Debug.DrawRay( Camera.main.transform.position, Camera.main.transform.forward, Color.cyan);
         if ( !isShooting || isWaitingForNextFire) {
             return;
         }
-
         onShoot?.Invoke();
     }
 
