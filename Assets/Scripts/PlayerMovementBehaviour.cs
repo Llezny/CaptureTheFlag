@@ -12,7 +12,6 @@ public class PlayerMovementBehaviour : MonoBehaviour {
 
   [ Header( "References" ) ]
   [ SerializeField ] private Rigidbody playerRigidbody;
-  [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
 
   [ Header( "Movement Settings" ) ]
   [ SerializeField ] private float playerSpeed = 10;
@@ -45,15 +44,15 @@ public class PlayerMovementBehaviour : MonoBehaviour {
   }
 
   private void AddListeners( ) {
-    inputReceiverBehaviour.OnMovePressed += Move;
-    inputReceiverBehaviour.OnRunPressed += Run;
-    inputReceiverBehaviour.OnJumpPressed += Jump;
+    InputReceiverBehaviour.OnMovePressed += Move;
+    InputReceiverBehaviour.OnRunPressed += Run;
+    InputReceiverBehaviour.OnJumpPressed += Jump;
   }
 
   private void RemoveListeners( ) {
-    inputReceiverBehaviour.OnMovePressed -= Move;
-    inputReceiverBehaviour.OnRunPressed -= Run;
-    inputReceiverBehaviour.OnJumpPressed -= Jump;
+    InputReceiverBehaviour.OnMovePressed -= Move;
+    InputReceiverBehaviour.OnRunPressed -= Run;
+    InputReceiverBehaviour.OnJumpPressed -= Jump;
   }
 
   private void Move( InputValue inputValue ) {

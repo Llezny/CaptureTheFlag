@@ -9,8 +9,7 @@ public class PlayerAnimationBehaviour : MonoBehaviour {
    public static readonly int IsRunningHash = Animator.StringToHash( "isRunning" );
    
    [ SerializeField ] private Animator animator;
-   [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
-   
+
    private void OnEnable( ) {
       AddListeners( );
    }
@@ -20,15 +19,15 @@ public class PlayerAnimationBehaviour : MonoBehaviour {
    }
    
    private void AddListeners( ) {
-      inputReceiverBehaviour.OnMovePressed += Move;
-      inputReceiverBehaviour.OnRunPressed += Run;
-      inputReceiverBehaviour.OnJumpPressed += Jump;
+      InputReceiverBehaviour.OnMovePressed += Move;
+      InputReceiverBehaviour.OnRunPressed += Run;
+      InputReceiverBehaviour.OnJumpPressed += Jump;
    }
 
    private void RemoveListeners( ) {
-      inputReceiverBehaviour.OnMovePressed -= Move;
-      inputReceiverBehaviour.OnRunPressed -= Run;
-      inputReceiverBehaviour.OnJumpPressed -= Jump;
+      InputReceiverBehaviour.OnMovePressed -= Move;
+      InputReceiverBehaviour.OnRunPressed -= Run;
+      InputReceiverBehaviour.OnJumpPressed -= Jump;
    }
    
    private void Move( InputValue inputValue ) {

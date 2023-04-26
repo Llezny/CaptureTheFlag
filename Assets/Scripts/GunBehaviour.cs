@@ -8,7 +8,6 @@ public class GunBehaviour : MonoBehaviour {
     
     public Action onShoot;
     
-    [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
     [ SerializeField ] private Transform bulletSpawnPoint;
     private bool isShooting;
     private bool isWaitingForNextFire;
@@ -16,7 +15,6 @@ public class GunBehaviour : MonoBehaviour {
 
     private void Update( ) {
         cooldownTimer?.Tick( Time.deltaTime );
-        Debug.DrawRay( Camera.main.transform.position, Camera.main.transform.forward, Color.cyan);
         if ( !isShooting || isWaitingForNextFire) {
             return;
         }
@@ -25,12 +23,12 @@ public class GunBehaviour : MonoBehaviour {
 
 
     private void OnEnable( ) {
-        inputReceiverBehaviour.OnFirePressed += Shoot;
+        InputReceiverBehaviour.OnFirePressed += Shoot;
         onShoot += SetupTimer;
     }
 
     private void OnDisable( ) {
-        inputReceiverBehaviour.OnFirePressed -= Shoot;
+        InputReceiverBehaviour.OnFirePressed -= Shoot;
         onShoot -= SetupTimer;
     }
 

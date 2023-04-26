@@ -4,7 +4,6 @@ using UnityEngine.InputSystem;
 public class CameraMovementBehaviour : MonoBehaviour {
     
     [ Header( "References" ) ]
-    [ SerializeField ] private InputReceiverBehaviour inputReceiverBehaviour;
     [ SerializeField ] private Transform cameraTransform;
     [ SerializeField ] private Transform playersBody;
 
@@ -15,12 +14,12 @@ public class CameraMovementBehaviour : MonoBehaviour {
     private float xRotation;
 
     private void OnEnable( ) {
-        inputReceiverBehaviour.OnLookPressed += HandleMouseMovement;
+        InputReceiverBehaviour.OnLookPressed += HandleMouseMovement;
         Cursor.visible = showCursor;
     }
     
     private void OnDisable( ) {
-        inputReceiverBehaviour.OnLookPressed -= HandleMouseMovement;
+        InputReceiverBehaviour.OnLookPressed -= HandleMouseMovement;
         Cursor.visible = true;
     }
     
