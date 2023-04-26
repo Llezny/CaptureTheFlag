@@ -6,7 +6,6 @@ namespace Zombie {
     
         public override void OnSLStateEnter( Animator animator, AnimatorStateInfo stateInfo, int layerIndex ) {
             base.OnSLStateEnter( animator, stateInfo, layerIndex );
-            Debug.Log("pursuit");
         }
     
         public override void OnSLStateNoTransitionUpdate( Animator animator, AnimatorStateInfo stateInfo, int layerIndex ) {

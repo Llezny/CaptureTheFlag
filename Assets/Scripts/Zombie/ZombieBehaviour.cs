@@ -12,6 +12,7 @@ namespace Zombie {
         public static int isRunningHash = Animator.StringToHash( "isRunning" );
         public static int inPursuitHash = Animator.StringToHash( "inPursuit" );
         public static int attackHash = Animator.StringToHash( "isAttacking" );
+        public static int dieHash = Animator.StringToHash( "die" );
     
         [ SerializeField ] private Animator animator;
         [ SerializeField ] private NavMeshAgent navMeshAgent;
@@ -30,7 +31,7 @@ namespace Zombie {
         }
 
         public void GetHit( ) {
-            Debug.LogError("HIT HIT HIT");
+            animator.SetTrigger( dieHash );
         }
 
         public void Running( ) {
@@ -42,6 +43,10 @@ namespace Zombie {
             if ( navMeshAgent.remainingDistance < maxDistanceToAttack ) {
                 animator.SetTrigger( attackHash );
             }
+        }
+
+        public void Die( ) {
+            this.gameObject.AddComponent<DespawnAfterTime>( );
         }
 
         public bool FindTarget( out GameObject target ) {
