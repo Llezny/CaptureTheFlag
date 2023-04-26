@@ -12,6 +12,8 @@ namespace Player {
         public static Action<InputValue> OnJumpPressed;
         public static Action<InputValue> OnRunPressed;
         public static Action<InputValue> OnPausePressed;
+        public static Action OnAnyKeyPressed;
+
 
         private PlayerInput playerInput;
         private const string INPUT_MAP_UI = "UI";
@@ -59,6 +61,10 @@ namespace Player {
     
         private void OnPause( InputValue inputValue ) {
             OnPausePressed?.Invoke( inputValue );
+        }
+        
+        private void OnAny( ) {
+            OnAnyKeyPressed?.Invoke( );
         }
     
     }
