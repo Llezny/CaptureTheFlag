@@ -2,11 +2,13 @@
 
 namespace Common {
     public class Stopwatch {
-        public float ElapsedSeconds { get; private set; }
+        public double ElapsedSeconds { get; private set; }
         public Action<double> TickCallback;
         private bool isStopped = true;
 
-        public Stopwatch( bool stopped = false ) { } 
+        public Stopwatch( bool stopped = false ) {
+            this.isStopped = stopped;
+        } 
         
         public Stopwatch( Action<double> tickCallback, bool stopped = false ) : this( stopped ) {
             TickCallback += tickCallback;
@@ -17,6 +19,7 @@ namespace Common {
                 return;
             }
             ElapsedSeconds += deltaTime;
+            TickCallback.Invoke( ElapsedSeconds );
         }
 
         public void Stop() {

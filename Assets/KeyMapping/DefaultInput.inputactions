@@ -369,6 +369,17 @@
                     "path": "<Keyboard>/anyKey",
                     "interactions": "",
                     "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Any",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e9e520d-9988-4ab1-93e2-bcf23efbd802",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
                     "groups": "",
                     "action": "Any",
                     "isComposite": false,
