@@ -3,6 +3,10 @@
 namespace UnityTemplateProjects {
     public class Health : IStat<int> {
 
+        public Health( ) {
+            OnChangeEvent = new UnityEvent<int>( );
+        }
+        
         public UnityEvent<int> OnChangeEvent { get; set; }
         public int MaxValue { get; private set; }
         

@@ -7,7 +7,7 @@ namespace UnityTemplateProjects {
         public void Decrease( );
         public void Increase( );
         public void Set( T value );
-        public UnityEvent<T> OnChangeEvent { get; }
+        public UnityEvent<T> OnChangeEvent { get; set; }
 
     }
 }
