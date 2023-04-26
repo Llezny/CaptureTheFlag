@@ -20,6 +20,10 @@ public class GameplayManager : MonoBehaviour {
     }
 
     public void PauseGame( InputValue inputValue ) {
+        PauseGame( );
+    }
+    public void PauseGame( ) {
+        Debug.Log( PausedGame ? "unpause" : "pause" );
         PausedGame = !PausedGame;
         Time.timeScale = PausedGame ? 0 : 1;
         OnPausedGame?.Invoke( PausedGame );
