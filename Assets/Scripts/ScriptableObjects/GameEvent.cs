@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Common;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.Serialization;
 
 namespace UnityTemplateProjects.ScriptableObjects {
     

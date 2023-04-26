@@ -4,7 +4,6 @@ using UnityEngine.Events;
 using UnityTemplateProjects.ScriptableObjects;
 
 namespace Common {
-    [Serializable]
     public class GameEventListener : MonoBehaviour {
         public GameEvent gameEvent;
         public UnityEvent Response;
