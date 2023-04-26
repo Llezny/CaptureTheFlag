@@ -71,7 +71,7 @@
                 {
                     "name": "Pause",
                     "type": "Button",
-                    "id": "d1ee7835-0d91-453a-9d85-2ac5c100b1f7",
+                    "id": "f20e343e-9a1f-485c-bb43-f4a28e42d834",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -345,7 +345,7 @@
                 },
                 {
                     "name": "",
-                    "id": "0714c1e8-f607-440a-9bbf-ad980e6e6508",
+                    "id": "aded5afd-3e3f-4f48-823f-8595917dd9ba",
                     "path": "<Keyboard>/escape",
                     "interactions": "",
                     "processors": "",
@@ -365,6 +365,15 @@
                     "type": "PassThrough",
                     "id": "c95b2375-e6d9-4b88-9c4c-c5e76515df4b",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "c76bb965-ee2a-490a-9d3b-efea6887339b",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -867,6 +876,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b085f7f9-1173-42c1-889f-d756985a1630",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

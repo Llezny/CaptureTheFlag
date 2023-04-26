@@ -1,6 +1,6 @@
-﻿using UnityTemplateProjects;
+﻿using Common;
 
-namespace Common {
+namespace PlayerStates {
     public class WalkPlayerState : State {
         
     }

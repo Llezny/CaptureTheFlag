@@ -1,10 +1,8 @@
-#if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
-#endif
 
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-namespace UnityTemplateProjects
+namespace SampleSceneAssets.Scripts
 {
     public class SimpleCameraController : MonoBehaviour
     {

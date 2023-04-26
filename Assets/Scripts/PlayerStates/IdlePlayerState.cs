@@ -1,7 +1,5 @@
-﻿using State = UnityTemplateProjects.State;
-
-namespace Common {
-    public class IdlePlayerState : State {
+﻿namespace PlayerStates {
+    public class IdlePlayerState : Common.State {
         
     }
 }

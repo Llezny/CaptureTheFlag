@@ -1,12 +1,12 @@
-﻿using System.Collections;
-using Lean.Pool;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class DespawnAfterTime : MonoBehaviour {
-	[Tooltip("Time to destroy")]
-	public float timeToDestroy = 0.8f;
-	void Start () {
-		Destroy( gameObject, timeToDestroy );
+namespace Easy_FPS.Scripts {
+	public class DespawnAfterTime : MonoBehaviour {
+		[Tooltip("Time to destroy")]
+		public float timeToDestroy = 0.8f;
+		void Start () {
+			Destroy( gameObject, timeToDestroy );
+		}
+
 	}
-
 }

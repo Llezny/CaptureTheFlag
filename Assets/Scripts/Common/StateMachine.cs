@@ -1,6 +1,4 @@
-﻿using UnityEngine.Rendering;
-
-namespace UnityTemplateProjects {
+﻿namespace Common {
     public abstract class StateMachine {
 
         public StateMachine( State startState ) {

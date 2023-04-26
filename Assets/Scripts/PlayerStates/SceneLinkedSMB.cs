@@ -1,8 +1,8 @@
-﻿namespace Common {
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Animations;
- 
-public class SceneLinkedSMB<TMonoBehaviour> : SealedSMB where TMonoBehaviour : MonoBehaviour
+
+namespace PlayerStates {
+    public class SceneLinkedSMB<TMonoBehaviour> : SealedSMB where TMonoBehaviour : MonoBehaviour
 {
     protected TMonoBehaviour m_MonoBehaviour;
     private bool m_FirstFrameHappened;
