@@ -3999,6 +3999,7 @@ GameObject:
   - component: {fileID: 1733773689}
   - component: {fileID: 1733773690}
   - component: {fileID: 1733773691}
+  - component: {fileID: 1733773692}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4058,6 +4059,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   flag: {fileID: 2299006264200076968}
   startPoint: {fileID: 1089828234}
+--- !u!114 &1733773692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733773687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b53bf4b9eef5aaa479a2d2afa1ad62c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopwatch: {fileID: 1733773690}
+  playerName: {fileID: 11400000, guid: bbb31b82a45b54a4ea20d030b0b5d202, type: 2}
 --- !u!4 &1763668529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 378251485ccc2214689266705249d0a2, type: 3}

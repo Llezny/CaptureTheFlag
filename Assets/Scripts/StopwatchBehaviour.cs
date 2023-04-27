@@ -3,22 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using Common;
 using UnityEngine;
-using Timer = System.Timers.Timer;
 
 public class StopwatchBehaviour : MonoBehaviour {
 
     public readonly Stopwatch Stopwatch = new Stopwatch( );
-
+    
     private void OnEnable( ) {
-        GameplayManager.OnGameFinish.AddListener( PauseStopwatch );
+        GameplayManager.OnGameFinish.AddListener( Stopwatch.FinishCounting );
     }
 
     private void OnDisable( ) {
-        GameplayManager.OnGameFinish.RemoveListener( PauseStopwatch );
-    }
-
-    private void PauseStopwatch( bool won ) {
-        Stopwatch.Stop(  );
+        GameplayManager.OnGameFinish.RemoveListener( Stopwatch.FinishCounting );
     }
 
     private void Update( ) {

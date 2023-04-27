@@ -5,6 +5,7 @@ namespace DefaultNamespace {
     
     [Serializable]
     public class GameState {
-        public List<LeaderboardRecord> leaderboards;
+        public List<LeaderboardRecord> leaderboards = new List<LeaderboardRecord>();
     }
+    
 }

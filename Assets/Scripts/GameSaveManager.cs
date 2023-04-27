@@ -1,24 +1,35 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Common;
 using DefaultNamespace;
 using UnityEngine;
 
-public class GameSaveManager : PersistentSingleton<MonoBehaviour> {
+public class GameSaveManager : PersistentSingleton<GameSaveManager> {
 
     private const string filePath = "CaptureTheFlag";
-    public GameState GameState { get; private set; }
-
-    protected override void Awake( ) {
-        base.Awake( );
-        LoadGame( );
+    private GameState gameState;
+    public GameState GameState {
+        get {
+            if ( gameState == null ) {
+                LoadGame(  );
+            }
+            return gameState;
+        }
+        private set {
+            gameState = value;
+        }
+    }
+    
+    private void Start( ) {
+        LoadGame(  );
     }
 
-    public void LoadGame( ) {
-        GameState = DataSaver.LoadData<GameState>( filePath );
+    private void LoadGame( ) {
+        gameState = DataSaver.LoadData<GameState>( filePath );
     }
 
     public void SaveGame( ) {
-        DataSaver.SaveData( GameState, filePath );
+        DataSaver.SaveData( gameState, filePath );
     }
 }
