@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace SimpleDependencyInjection
+namespace CaptureTheFlag._3rdParty.SimpleDependencyInjection
 {
     public class DependenciesCollection : IEnumerable<Dependency>
     {

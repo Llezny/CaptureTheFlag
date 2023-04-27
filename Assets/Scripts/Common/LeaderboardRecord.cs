@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DefaultNamespace {
+namespace CaptureTheFlag.Common {
     
     [Serializable]
     public class LeaderboardRecord : IComparable<LeaderboardRecord> {

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace DefaultNamespace {
+namespace CaptureTheFlag.Collectible {
     public abstract class CollectibleBehaviour : MonoBehaviour {
         public Action OnCollect { get; set; }
         public virtual void Collect( ) {

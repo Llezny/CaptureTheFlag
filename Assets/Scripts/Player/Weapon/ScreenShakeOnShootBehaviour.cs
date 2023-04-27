@@ -1,8 +1,7 @@
 using DG.Tweening;
-using Player;
 using UnityEngine;
 
-namespace Common {
+namespace CaptureTheFlag.Player.Weapon {
     public class ScreenShakeOnShootBehaviour : MonoBehaviour {
 
         [ SerializeField ] private Camera mainCamera;

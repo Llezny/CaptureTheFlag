@@ -1,8 +1,9 @@
 using System;
+using CaptureTheFlag.Common.Manager;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Movement {
     [RequireComponent(typeof(PlayerInput))]
     public class InputReceiverBehaviour : MonoBehaviour {
 

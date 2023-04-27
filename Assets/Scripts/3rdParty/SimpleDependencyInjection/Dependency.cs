@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SimpleDependencyInjection
+namespace CaptureTheFlag._3rdParty.SimpleDependencyInjection
 {
     public struct Dependency
     {

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Common  { 
+namespace CaptureTheFlag.Common  { 
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
         
         protected static T instance;

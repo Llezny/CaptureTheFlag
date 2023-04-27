@@ -1,5 +1,3 @@
-﻿using UnityEngine;
-
-namespace DefaultNamespace {
+﻿namespace CaptureTheFlag.Collectible {
     public class CollectibleBaseBehaviour : CollectibleBehaviour { }
 }

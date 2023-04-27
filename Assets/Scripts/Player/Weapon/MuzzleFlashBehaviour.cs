@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using Common;
+using CaptureTheFlag.Common.Tool;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Weapon {
     public class MuzzleFlashBehaviour : MonoBehaviour {
     
         [FormerlySerializedAs( "shootingBehaviour" )] [ SerializeField ] private GunBehaviour gunBehaviour;

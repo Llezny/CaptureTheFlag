@@ -1,13 +1,15 @@
-using ScriptableObjects;
+using CaptureTheFlag.Common.ScriptableObjects;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerNameDisplay : MonoBehaviour {
+namespace CaptureTheFlag.View {
+    public class PlayerNameDisplay : MonoBehaviour {
 
-    [SerializeField] private StringSO playerName;
-    [SerializeField] private Text playerNameText;
+        [SerializeField] private StringSO playerName;
+        [SerializeField] private Text playerNameText;
 
-    private void Awake( ) {
-        playerNameText.text = playerName.String;
+        private void Awake( ) {
+            playerNameText.text = playerName.String;
+        }
     }
 }

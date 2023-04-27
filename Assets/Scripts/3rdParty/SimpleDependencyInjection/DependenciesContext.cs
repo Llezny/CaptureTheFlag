@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace SimpleDependencyInjection
+namespace CaptureTheFlag._3rdParty.SimpleDependencyInjection
 {
     [DefaultExecutionOrder(-1)]
     public abstract class DependenciesContext : MonoBehaviour

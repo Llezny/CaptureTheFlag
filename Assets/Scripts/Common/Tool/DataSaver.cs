@@ -2,7 +2,7 @@
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
-namespace Common {
+namespace CaptureTheFlag.Common.Tool {
     public class DataSaver {
         public static void SaveData<T>( T data, string fileName ) where T : class {
             var path = $"{Application.persistentDataPath}/{fileName}";

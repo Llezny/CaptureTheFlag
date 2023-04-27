@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Stats {
     public class Health : IStat<int> {
 
         public Action<int> OnChangeEvent { get; set; }

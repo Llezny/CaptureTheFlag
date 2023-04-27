@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using System.Linq;
-using Player;
+using CaptureTheFlag.Common.Tool;
+using CaptureTheFlag.Player.Stats;
 using UnityEngine;
 using UnityEngine.AI;
 using Random = UnityEngine.Random;
 
-namespace Zombie {
+namespace CaptureTheFlag.Zombie {
     public class ZombieBehaviour : MonoBehaviour, IEnemy {
 
         public static int isWalkingHash = Animator.StringToHash( "isWalking" );

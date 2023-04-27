@@ -1,8 +1,9 @@
 using System;
-using Common;
+using CaptureTheFlag.Common.Manager;
+using CaptureTheFlag.Common.Tool;
 using UnityEngine;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Stats {
     public class PlayerHealthBehaviour : MonoBehaviour {
 
         [ SerializeField ] private int maxHealth = 3;

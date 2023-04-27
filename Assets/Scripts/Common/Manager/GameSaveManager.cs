@@ -1,31 +1,32 @@
-using Common;
-using DefaultNamespace;
+using CaptureTheFlag.Common.Tool;
 
-public class GameSaveManager : PersistentSingleton<GameSaveManager> {
+namespace CaptureTheFlag.Common.Manager {
+    public class GameSaveManager : PersistentSingleton<GameSaveManager> {
 
-    private const string filePath = "CaptureTheFlag";
-    private GameState gameState;
-    public GameState GameState {
-        get {
-            if ( gameState == null ) {
-                LoadGame(  );
+        private const string filePath = "CaptureTheFlag";
+        private GameState gameState;
+        public GameState GameState {
+            get {
+                if ( gameState == null ) {
+                    LoadGame(  );
+                }
+                return gameState;
             }
-            return gameState;
+            private set {
+                gameState = value;
+            }
         }
-        private set {
-            gameState = value;
-        }
-    }
     
-    private void Start( ) {
-        LoadGame(  );
-    }
+        private void Start( ) {
+            LoadGame(  );
+        }
 
-    private void LoadGame( ) {
-        gameState = DataSaver.LoadData<GameState>( filePath );
-    }
+        private void LoadGame( ) {
+            gameState = DataSaver.LoadData<GameState>( filePath );
+        }
 
-    public void SaveGame( ) {
-        DataSaver.SaveData( gameState, filePath );
+        public void SaveGame( ) {
+            DataSaver.SaveData( gameState, filePath );
+        }
     }
 }

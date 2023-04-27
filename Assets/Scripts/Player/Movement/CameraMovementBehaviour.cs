@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Movement {
     public class CameraMovementBehaviour : MonoBehaviour {
     
         [ Header( "References" ) ]

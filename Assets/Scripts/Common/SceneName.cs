@@ -1,4 +1,4 @@
-namespace Common {
+namespace CaptureTheFlag.Common {
     public enum SceneName {
         Menu,
         Game,

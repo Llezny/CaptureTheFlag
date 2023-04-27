@@ -1,8 +1,7 @@
-using PlayerStates;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Movement {
   public class PlayerMovementBehaviour : MonoBehaviour {
 
     [ Header( "References" ) ]

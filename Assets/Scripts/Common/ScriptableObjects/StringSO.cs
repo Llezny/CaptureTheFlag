@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ScriptableObjects {
+namespace CaptureTheFlag.Common.ScriptableObjects {
     
     [CreateAssetMenu(fileName = "StringSO", menuName = "ScriptableObjects/PrimitiveTypes/String", order = 1)]
     public class StringSO : ScriptableObject {

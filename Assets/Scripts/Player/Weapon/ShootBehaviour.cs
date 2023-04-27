@@ -1,8 +1,7 @@
-using System;
+using CaptureTheFlag.Zombie;
 using UnityEngine;
-using Zombie;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Weapon {
     public class ShootBehaviour : MonoBehaviour {
 
         [ SerializeField ] private GunBehaviour gunBehaviour;

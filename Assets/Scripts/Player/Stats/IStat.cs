@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Stats {
     public interface IStat<T> {
         public T Value { get; }
         public T MaxValue { get; }

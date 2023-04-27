@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace SimpleDependencyInjection
+namespace CaptureTheFlag._3rdParty.SimpleDependencyInjection
 {
     public class DependenciesProvider
     {

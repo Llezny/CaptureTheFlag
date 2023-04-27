@@ -1,7 +1,7 @@
-using PlayerStates;
+using CaptureTheFlag._3rdParty;
 using UnityEngine;
 
-namespace Zombie {
+namespace CaptureTheFlag.Zombie {
     public class ZombieAttackingSMB : SceneLinkedSMB<ZombieBehaviour> {
    
         public override void OnSLStateEnter( Animator animator, AnimatorStateInfo stateInfo, int layerIndex ) {

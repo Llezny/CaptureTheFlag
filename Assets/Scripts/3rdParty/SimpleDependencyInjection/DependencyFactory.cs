@@ -1,8 +1,8 @@
 ﻿using System;
-using UnityEngine;
 using System.Runtime.Serialization;
+using UnityEngine;
 
-namespace SimpleDependencyInjection
+namespace CaptureTheFlag._3rdParty.SimpleDependencyInjection
 {
     public static class DependencyFactory
     {

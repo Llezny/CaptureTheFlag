@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common {
+namespace CaptureTheFlag.Common.Tool {
     public class Timer {
         public float RemainingSeconds { get; private set; }
         public Action OnTimerEnd;

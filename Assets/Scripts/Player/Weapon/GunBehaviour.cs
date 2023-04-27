@@ -1,10 +1,10 @@
 using System;
-using Common;
-using Player.Weapon;
+using CaptureTheFlag.Common.Tool;
+using CaptureTheFlag.Player.Movement;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player {
+namespace CaptureTheFlag.Player.Weapon {
     public class GunBehaviour : MonoBehaviour, IGun {
     
         public Action onShoot;

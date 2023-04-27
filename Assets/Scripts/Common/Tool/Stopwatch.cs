@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common {
+namespace CaptureTheFlag.Common.Tool {
     public class Stopwatch {
         public double ElapsedSeconds { get; private set; }
         
