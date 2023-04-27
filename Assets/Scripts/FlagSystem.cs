@@ -1,3 +1,4 @@
+using System;
 using DefaultNamespace;
 using UnityEngine;
 
@@ -7,7 +8,11 @@ public class FlagSystem : MonoBehaviour {
     [ SerializeField ] private CollectibleBehaviour startPoint;
     
     private bool isFlagCollected;
-    
+    public Action OnFlagCollect {
+        get => flag.OnCollect;
+        set => flag.OnCollect = value;
+    }
+
     private void OnEnable( ) {
         flag.OnCollect += FlagCollect;
         startPoint.OnCollect += ReturnToBase;

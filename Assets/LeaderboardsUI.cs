@@ -1,10 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Configuration;
 using DefaultNamespace;
 using DefaultNamespace.View;
-using Lean.Common;
 using UnityEngine;
 
 public class LeaderboardsUI : MenuBase {

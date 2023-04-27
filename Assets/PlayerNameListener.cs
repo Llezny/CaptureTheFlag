@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using ScriptableObjects;
 using TMPro;
 using UnityEngine;
