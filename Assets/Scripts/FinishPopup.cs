@@ -8,12 +8,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class FinishPopup : MonoBehaviour, IMenu {
+public class FinishPopup : MenuBase {
 
     [ InjectField ] private GameplayManager gameplayManager;
     [ InjectField ] private StopwatchBehaviour stopwatchBehaviour;
-    
-    
+
     [ SerializeField ] private GameObject content;
     [ SerializeField ] private TextMeshProUGUI titleText;
     [ SerializeField ] private TextMeshProUGUI timeText;
@@ -29,7 +28,7 @@ public class FinishPopup : MonoBehaviour, IMenu {
         GameplayManager.OnGameFinish.RemoveListener( ShowMenu );
     }
 
-    public void ToggleMenu( bool enable ) {
+    public override void ToggleMenu( bool enable ) {
         content.SetActive( enable );
     }
 
@@ -42,6 +41,4 @@ public class FinishPopup : MonoBehaviour, IMenu {
         }
 
     }
-
-    
 }
