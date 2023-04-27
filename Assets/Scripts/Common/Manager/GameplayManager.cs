@@ -28,11 +28,11 @@ public class GameplayManager : MonoBehaviour {
     }
 
     public void RestartGame( ) {
-        SceneLoader.Instance.LoadScene( SceneName.Game );
+        SceneLoader.LoadScene( SceneName.Game );
     }
 
     public void QuitGame( ) {
-        SceneLoader.Instance.LoadScene( SceneName.MainMenu );
+        SceneLoader.LoadScene( SceneName.Menu );
     }
 
     public static void WinGame( ) {

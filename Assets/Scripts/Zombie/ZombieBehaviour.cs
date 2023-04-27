@@ -17,11 +17,10 @@ namespace Zombie {
         [ SerializeField ] private Animator animator;
         [ SerializeField ] private NavMeshAgent navMeshAgent;
     
-        private float maxDistanceToPursuit = 20f;
-        private float maxDistanceToRun = 10f;
-        private float maxDistanceToAttack = 3f;
-        public float DistanceToPlayer => Vector3.Distance( target.position, transform.position );
-    
+        [ SerializeField ] private float maxDistanceToPursuit = 20f;
+        [ SerializeField ] private float maxDistanceToRun = 10f;
+        [ SerializeField ] private float maxDistanceToAttack = 3f;
+
         private Transform target;
         private List<GameObject> players;
     

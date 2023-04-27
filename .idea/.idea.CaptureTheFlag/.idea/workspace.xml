@@ -2,10 +2,753 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96639bb-cdcf-40ff-8e8f-5d26be8c0427" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/3rdParty/SimpleDependencyInjection/DependenciesContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/3rdParty/SimpleDependencyInjection/DependenciesContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Stats/PlayerHealthBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Stats/PlayerHealthBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/GunBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/GunBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Zombie/ZombieAttackingSMB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Zombie/ZombieAttackingSMB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/3rdParty.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/FBX/ApocalypticFlag01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/FBX/ApocalypticFlag01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Materials/ApocalypticProps_Flag01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Materials/ApocalypticProps_Flag01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Materials/ApocalypticProps_Flag01_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Materials/ApocalypticProps_Flag01_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/ApocalypticProps/Textures/ApocalypticProps_Flag01_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/DirtyGlassMat_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/UV Grid.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/UV Grid.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/UV Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ApocalypticBuildings/UV Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Documentation.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Documentation.odt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/GunAnimator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/GunAnimator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bloodColor 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bloodColor 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bloodColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bloodColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bluegrid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bluegrid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bulllet_hole.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/Materials/bulllet_hole.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/bluegrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/bluegrid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/bulllet_hole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/bulllet_hole.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/horizon_crosshir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/horizon_crosshir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/vertical_crosshir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Images/vertical_crosshir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Iron Sight_Low.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Iron Sight_Low.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Iron Sight_Low.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Iron Sight_Low.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/defaultMat_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/red_dot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/Materials/red_dot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Base_Color.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Base_Color.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Metallic.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Metallic.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Mixed_AO.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Mixed_AO.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Normal_OpenGL.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Normal_OpenGL.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Roughness.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/None_Roughness.bmp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/red_dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/ironSight_addon/red_dot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/FPS_Character.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/FPS_Character_prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/FPS_Character_prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Gun_Material_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Hands_Material_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Sword_Material.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Materials/Sword_Material.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Hands_Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword Metalic.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword Metalic.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_AO.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_AO.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Albedo.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Albedo.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Normal.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Sword_Normal.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_AO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_AO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Albedo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Albedo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Emission.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Emission.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/Model_Animations_Textures/main character/Textures/Weapon_Specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle04.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle04.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle05.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Materials/Muzzle05.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/MuzzlePrefabs/muzzelFlash 05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/MuzzelFlash/Textures/Muzzle05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/_sceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Easy FPS/_sceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Bridges.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Bridges.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Fences.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Fences.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Foliage.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Foliage.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/LampPosts.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/LampPosts.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/LightShape.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/LightShape.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Atlas.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Atlas.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Fence.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Fence.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Grass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Grass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leavas_03.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leavas_03.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leaves_02.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leaves_02.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leaves_V01.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Leaves_V01.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/LightShape.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/LightShape.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Mud.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Mud.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/RoadMarkings.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/RoadMarkings.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Signs.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/Signs.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/tree_DIF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Materials/tree_DIF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Park.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Park.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Parking.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Parking.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/RoadMarks.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/RoadMarks.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Roads.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Roads.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/StreetProps.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/StreetProps.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_A.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_A.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_B.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_B.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_C.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/Grass_C.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/LightShape.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/LightShape.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/RoadMarkings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/RoadMarkings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/atlas.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/atlas.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/atlas01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/atlas01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/fence_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/fence_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/grass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/grass.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/mud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/mud.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/pavement_03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/tree_DIF.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Meshes/Textures/tree_DIF.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_B_Leaves03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_B_Leaves03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_E_Leaves03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Bushes/Bush_E_Leaves03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_A_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_A_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_A_V02_Leaves03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_A_V02_Leaves03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_B_V01_Leaves02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_B_V01_Leaves02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_B_V02_Leaves03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_B_V02_Leaves03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_C_V01_Leaves02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_C_V01_Leaves02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_C_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_C_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_D_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_D_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_D_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_D_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_E_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_E_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_E_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees/Tree_E_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Bush_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_B_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_E_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Foliage/Trees_Big/Tree_E_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/BridgeSlope_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/BridgeSlope_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/BridgeSlope_Simple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/BridgeSlope_Simple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Damage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Damage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Curved.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Curved.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Straight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Straight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Straight_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Double_Straight_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Curved.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Curved.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Straight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Straight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Straight_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_Simple_Straight_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_ToStreet_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_ToStreet_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_ToStreet_Simple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/Elements/Bridge_ToStreet_Simple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/BridgeSlope_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/BridgeSlope_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/BridgeSlope_Simple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/BridgeSlope_Simple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Damage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Damage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Curved.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Curved.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Straight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Straight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Straight_A 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Double_Straight_A 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Curved.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Curved.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Straight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Straight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Straight_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_Simple_Straight_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Double_Enter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Double_Enter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Double_Exit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Double_Exit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Simple_Enter.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Simple_Enter.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Simple_Exit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Bridges/QuickBuilds/Bridge_ToStreet_Simple_Exit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Center_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Center_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Corner_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Corner_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Corner_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Corner_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Enterence_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Enterence_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Enterence_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Enterence_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Streight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parking/Elements/Parking_Streight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Center.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Center.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Corner_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Corner_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Corner_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Corner_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Corner_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Corner_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Corner_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Corner_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_End.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_End.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Siple.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Sidewalk_Siple.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Streight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Parks/Elements/Park_Streight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/A/Pavement_A_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/B/Pavement_B_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/C/Pavement_C_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Pavement/D/Pavement_D_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_BusStop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_BusStop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_F.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_F.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_FL.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_FL.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_FR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_FR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Intersection.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Intersection.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_L.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_L.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_LFR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_LFR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_LR.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_LR.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Line.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Line.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_PArking_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_R.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_R.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Stop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Stop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/RoadMarks/RoadM_Triangle_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_BusStop_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_A_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_A_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_A_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_A_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_B_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_B_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_C_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_C_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_Double_B_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Cross_Double_B_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Crosswalk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Crosswalk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Crosswalk_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Crosswalk_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Duble_Cross_B_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Duble_Cross_B_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_End_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Intersection_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Streight_Double_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Turn.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Turn.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Turn_Double.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Turn_Double.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Widening.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/Roads/Streets/Road_Widening.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Bench/Bench_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/FuseBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/FuseBox/FuseBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/FuseBox/FuseBox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Hidrant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Hidrant/Hidrant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Hidrant/Hidrant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/LightShape.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/LightShape/LightShape.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/LightShape/LightShape.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/MailBox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/MailBox/MailBox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/MailBox/MailBox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/NewsBoard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/NewsBoard/NewsBoard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/NewsBoard/NewsBoard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Overpass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Overpass/Overpass_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Overpass/Overpass_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Overpass/Overpass_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Overpass/Overpass_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/ParkLamp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/ParkLamp/ParkLamp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/ParkLamp/ParkLamp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Phone.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Phone/Phone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Phone/Phone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/Elements/PlantPot_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V04.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V04.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V05.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V05.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V06.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_A_V06.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_B_V03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_C_V03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V02.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V02.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V03.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/PlantPots/QuickBuild/PlantPot_D_V03.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_A_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_A_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_A_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_A_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_B_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_B_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_B_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Powerpoles/Powerpole_B_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadBlock_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/RoadBlocks/RoadCone_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/Elements.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/Elements/Roundabout_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/Elements/Roundabout_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/Elements/Roundabout_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/Elements/Roundabout_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/QuickBuild.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/QuickBuild/Roundabout_A_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/QuickBuild/Roundabout_A_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/QuickBuild/Roundabout_B_V01.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Roundabouts/QuickBuild/Roundabout_B_V01.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/SewerCaps/SewerCap_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/HighwaySigns/HighwaySign_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_F.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_F.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_G.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/Signs/StreetSigns/StreetSign_G.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_B.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_B.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_C.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_C.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_D.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_D.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_E.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_E.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_F.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_F.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_G.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_G.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_H.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_H.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_I.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_I.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_J.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_J.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_K.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LowpolyStreetPack/Prefabs/StreetProps/TraficLights/LampPost_K.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Attack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Attack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_FallingBack.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_FallingBack.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_FallingForward.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_FallingForward.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Run.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Run.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Run_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Run_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk1.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk1.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk1_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk1_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk_InPlace.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Z_Walk_InPlace.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Attack.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Attack.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_FallingBack.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_FallingBack.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_FallingForward.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_FallingForward.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Idle.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Idle.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Run.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Run.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Run_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Run_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk1_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Animations/Zombie@Z_Walk_InPlace.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie1.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie1.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie2.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie2.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie3.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/FBXs/Zombie3.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Plane.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Plane.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Zombie.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Zombie.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Zombie_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Materials/Zombie_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie3.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Prefabs/Zombie3.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/ScenePrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/ScenePrefabs/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/ScenePrefabs/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/ScenePrefabsSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/ScenePrefabsSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_ao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_ao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_nm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/Zombie_nm.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/zombie_emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Zombie/Textures/zombie_emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Zombie/ZombieBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Zombie/ZombieBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

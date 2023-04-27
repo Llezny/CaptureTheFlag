@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour {
     }
 
     private void StartGame( ) {
-        SceneLoader.Instance.LoadScene( SceneName.Game );
+        SceneLoader.LoadScene( SceneName.Game );
     }
 
     private void ShowLeaderboards( ) {
