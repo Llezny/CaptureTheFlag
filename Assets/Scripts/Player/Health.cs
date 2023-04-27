@@ -4,10 +4,6 @@ using UnityEngine.Events;
 namespace Player {
     public class Health : IStat<int> {
 
-        public Health( int val ) {
-            value = val;
-        }
-        
         public Action<int> OnChangeEvent { get; set; }
         public Action OnZero { get; set; }
         

@@ -10,7 +10,7 @@ namespace Player {
         public Action<int> OnChange { get => health.OnChangeEvent; set => health.OnChangeEvent = value; }
         public Action OnDie { get => health.OnZero; set => health.OnZero = value; }
         
-        private readonly IStat<int> health = new Health( 3 );
+        private readonly IStat<int> health = new Health();
 
         private void OnEnable( ) {
             OnDie += GameplayManager.LoseGame;
