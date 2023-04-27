@@ -13,6 +13,7 @@ namespace Player {
     [ SerializeField ] private float runningSpeedModifier = 2;
     [ SerializeField ] private float jumpForce = 20f;
 
+    
     private PlayerMovementStateMachine playerMovementStateMachine;
     private Vector3 movementVector;
     private float moveMultiplier;
@@ -50,6 +51,10 @@ namespace Player {
       InputReceiverBehaviour.OnJumpPressed -= Jump;
     }
 
+    private bool IsGrounded( ) {
+      return Physics.Raycast( transform.position, -Vector3.up, 1f );
+    }
+
     private void Move( InputValue inputValue ) {
       var inputVector = inputValue.Get<Vector2>( );
       movementVector = new Vector3( inputVector.x, 0, inputVector.y );
@@ -60,11 +65,10 @@ namespace Player {
     }
   
     private void Jump( InputValue inputValue ) {
-      if ( !inputValue.isPressed )
+      if ( !inputValue.isPressed || !IsGrounded( ) ) {
         return;
+      }
       playerRigidbody.AddForce( Vector3.up * jumpForce );
     }
-  
-  
   }
 }
