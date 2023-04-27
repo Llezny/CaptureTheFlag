@@ -8,7 +8,19 @@ using Timer = System.Timers.Timer;
 public class StopwatchBehaviour : MonoBehaviour {
 
     public readonly Stopwatch Stopwatch = new Stopwatch( );
-    
+
+    private void OnEnable( ) {
+        GameplayManager.OnGameFinish.AddListener( PauseStopwatch );
+    }
+
+    private void OnDisable( ) {
+        GameplayManager.OnGameFinish.RemoveListener( PauseStopwatch );
+    }
+
+    private void PauseStopwatch( bool won ) {
+        Stopwatch.Stop(  );
+    }
+
     private void Update( ) {
         Stopwatch.Tick( Time.deltaTime );
     }

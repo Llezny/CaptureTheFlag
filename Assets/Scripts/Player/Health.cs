@@ -1,13 +1,16 @@
-﻿using UnityEngine.Events;
+﻿using System;
+using UnityEngine.Events;
 
 namespace Player {
     public class Health : IStat<int> {
 
-        public Health( ) {
-            OnChangeEvent = new UnityEvent<int>( );
+        public Health( int val ) {
+            value = val;
         }
         
-        public UnityEvent<int> OnChangeEvent { get; set; }
+        public Action<int> OnChangeEvent { get; set; }
+        public Action OnZero { get; set; }
+        
         public int MaxValue { get; private set; }
         
         private int value;
@@ -18,6 +21,9 @@ namespace Player {
             private set {
                 this.value = value;
                 OnChangeEvent?.Invoke( this.value );
+                if ( this.value <= 0 ) {
+                    OnZero?.Invoke(  );
+                }
             }
         }
 
@@ -32,7 +38,5 @@ namespace Player {
         public void Set( int value ) {
             Value = value;
         }
-
-
     }
 }

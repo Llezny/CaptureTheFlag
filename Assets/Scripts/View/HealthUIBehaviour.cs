@@ -14,11 +14,11 @@ public class HealthUIBehaviour : MonoBehaviour {
     private List<GameObject> spawnedHearts = new List<GameObject>();
     
     private void OnEnable( ) {
-        playerHealthBehaviour.health.OnChangeEvent.AddListener( UpdateUI );
+        playerHealthBehaviour.OnChange += UpdateUI;
     }
 
     private void OnDisable( ) {
-        playerHealthBehaviour.health.OnChangeEvent.RemoveListener( UpdateUI );
+        playerHealthBehaviour.OnChange -= UpdateUI;
     }
     
     private void UpdateUI( int val ) {

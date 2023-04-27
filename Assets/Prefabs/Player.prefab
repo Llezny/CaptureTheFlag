@@ -83,7 +83,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 7072036117336866347}
-  inputReceiverBehaviour: {fileID: 0}
 --- !u!54 &2774376455895879959
 Rigidbody:
   m_ObjectHideFlags: 0

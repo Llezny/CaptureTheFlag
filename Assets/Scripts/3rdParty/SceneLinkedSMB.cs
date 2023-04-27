@@ -2,6 +2,7 @@
 using UnityEngine.Animations;
 
 namespace PlayerStates {
+    
     public class SceneLinkedSMB<TMonoBehaviour> : SealedSMB where TMonoBehaviour : MonoBehaviour
 {
     protected TMonoBehaviour m_MonoBehaviour;

@@ -1,10 +1,11 @@
 using DefaultNamespace;
+using SimpleDependencyInjection;
 using UnityEngine;
 
 public class FlagSystem : MonoBehaviour {
     
-    [SerializeField] private CollectibleBehaviour flag;
-    [SerializeField] private CollectibleBehaviour startPoint;
+    [ SerializeField ] private CollectibleBehaviour flag;
+    [ SerializeField ] private CollectibleBehaviour startPoint;
     
     private bool isFlagCollected;
     
@@ -24,7 +25,7 @@ public class FlagSystem : MonoBehaviour {
 
     private void ReturnToBase( ) {
         if ( isFlagCollected ) {
-            Debug.Log( "Wingame" );
+            GameplayManager.WinGame();
         }
     }
 }

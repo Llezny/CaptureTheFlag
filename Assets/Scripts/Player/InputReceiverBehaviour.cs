@@ -19,12 +19,16 @@ namespace Player {
         private const string INPUT_MAP_UI = "UI";
         private const string INPUT_MAP_PLAYER = "Player";
     
-        public void SetInputMap( bool isGamePaused ) {
-            if ( isGamePaused ) {
+        public void SetInputMap( bool mapInput ) {
+            if ( mapInput ) {
                 playerInput.SwitchCurrentActionMap( INPUT_MAP_UI );
                 return;
             }
             playerInput.SwitchCurrentActionMap( INPUT_MAP_PLAYER );
+        }
+
+        private void SetUIInputMap( bool _ ) {
+            SetInputMap( true );
         }
 
         private void Awake( ) {
@@ -33,10 +37,12 @@ namespace Player {
 
         private void OnEnable( ) {
             GameplayManager.OnPausedGame.AddListener( SetInputMap );
+            GameplayManager.OnGameFinish.AddListener( SetUIInputMap );
         }
 
         private void OnDisable( ) {
             GameplayManager.OnPausedGame.RemoveListener( SetInputMap );
+            GameplayManager.OnGameFinish.RemoveListener( SetUIInputMap );
         }
 
         private void OnMove( InputValue inputValue ) {

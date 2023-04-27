@@ -1,4 +1,4 @@
-﻿using UnityEngine.Events;
+﻿using System;
 
 namespace Player {
     public interface IStat<T> {
@@ -7,7 +7,8 @@ namespace Player {
         public void Decrease( );
         public void Increase( );
         public void Set( T value );
-        public UnityEvent<T> OnChangeEvent { get; set; }
+        public Action<T> OnChangeEvent { get; set; }
+        public Action OnZero { get; set; }
 
     }
 }

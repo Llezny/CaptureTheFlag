@@ -3,18 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="c96639bb-cdcf-40ff-8e8f-5d26be8c0427" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Easy FPS/GunAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Easy FPS/GunAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleBaseBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleBaseBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleBaseBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleFlagBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleFlagBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectibleFlagBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectorBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectorBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CollectorBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinishPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinishPopup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FinishPopup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlagSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FlagSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FlagSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Singleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Singleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CaptureTheFlag.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CaptureTheFlag.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/ListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/MyExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/ListExtensions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/MyExtensions.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/SceneName.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SceneName.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DespawnAfterTime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/DespawnAfterTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DespawnAfterTime.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/DespawnAfterTime.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameplayManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIDependenciesContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIDependenciesContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthUIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/HealthUIBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthUIBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/HealthUIBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/IStat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputReceiverBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/InputReceiverBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealthBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealthBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStates/SceneLinkedSMB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/3rdParty/SceneLinkedSMB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerStates/SceneLinkedSMB.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/3rdParty/SceneLinkedSMB.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesCollection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesCollection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesContext.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependenciesProvider.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/Dependency.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/Dependency.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependencyFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/DependencyFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/InjectFieldAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimpleDependencyInjection/InjectFieldAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopwatchBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StopwatchBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopwatchUIBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/StopwatchUIBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StopwatchUIBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/StopwatchUIBehaviour.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,24 +64,41 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eba875eb53a542ed8b3ed97f002cceb213d600/33/ddccf8b5/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eba875eb53a542ed8b3ed97f002cceb213d600/d3/3a0dd122/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eba875eb53a542ed8b3ed97f002cceb213d600/f0/c1791271/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollectibleFlagBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollectorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FinishPopup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/FlagSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerNameDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayerNameListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectibleFlagBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/SceneName.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinishPopup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FlagSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LeaderboardsLoaderBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/SceneSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StopwatchUIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/StopwatchUIBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Zombie/ZombieDieSMB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.17/Editor/Menus/CinemachineMenu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.6.17/Tests/Editor/DampingTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.17.6/Editor/Collaborate/Utilities/ExtensionMethods.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.16/Rider/Editor/UnitTesting/SyncTestRunCallback.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.16/Rider/Editor/UnitTesting/SyncTestRunEventsHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.16/Rider/Editor/UnitTesting/TestEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.16/Rider/Editor/UnitTesting/TestsCallback.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Editor/AssetEditor/InputActionTreeView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Editor/DownloadableSample.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/InputValue.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/PlayerInput/PlayerInputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/Samples~/InputRecorder/InputRecorder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/Samples~/RebindingUI/RebindActionUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/Samples~/SimpleDemo/SimpleController_UsingPlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/Tests/TestFixture/InputTestFixture.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.10.1/Runtime/Debugging/DebugUpdater.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.10.1/Runtime/Volume/Volume.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.high-definition@10.10.1/Runtime/Lighting/Light/HDAdditionalLightData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
