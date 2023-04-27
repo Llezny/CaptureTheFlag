@@ -90,10 +90,6 @@ namespace Zombie {
             navMeshAgent.transform.rotation.SetLookRotation( Vector3.forward );
         }
 
-        public void Wandering( ) {
-
-        }
-
         public void StartWandering( ) {
             animator.SetBool( isWalkingHash, true );
             if ( TryGetRandomPoint( transform.position, 3, out var result) ) {

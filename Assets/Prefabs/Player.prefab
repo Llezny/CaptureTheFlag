@@ -2760,7 +2760,7 @@ GameObject:
   - component: {fileID: 7072036117327590186}
   - component: {fileID: 7072036117327590188}
   m_Layer: 0
-  m_Name: FPS_Character_prefab
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2815,7 +2815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd1629a7f5e739248aa2a003572605b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpawnPoint: {fileID: 2778828184125952841}
+  shootingCooldown: 0.2
 --- !u!114 &7072036117327590189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2829,6 +2829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gunBehaviour: {fileID: 7072036117327590187}
+  mainCameraTransform: {fileID: 2774376455896146891}
 --- !u!114 &7072036117327590186
 MonoBehaviour:
   m_ObjectHideFlags: 0

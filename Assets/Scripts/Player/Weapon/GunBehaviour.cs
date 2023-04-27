@@ -8,8 +8,7 @@ namespace Player {
     public class GunBehaviour : MonoBehaviour, IGun {
     
         public Action onShoot;
-    
-        [ SerializeField ] private Transform bulletSpawnPoint;
+        
         [ SerializeField ] private float shootingCooldown = 0.2f;
 
         private bool isShooting;

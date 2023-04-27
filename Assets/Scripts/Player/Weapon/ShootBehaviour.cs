@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using Zombie;
 
@@ -6,6 +7,10 @@ namespace Player {
 
         [ SerializeField ] private GunBehaviour gunBehaviour;
         [ SerializeField ] private Transform mainCameraTransform;
+
+        private void Start( ) {
+            mainCameraTransform = Camera.main.transform;
+        }
 
         private void OnEnable( ) {
             gunBehaviour.onShoot += Shoot;
