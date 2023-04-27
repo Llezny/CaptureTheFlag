@@ -5,7 +5,7 @@ namespace Common {
         public double ElapsedSeconds { get; private set; }
         
         public Action<double> TickCallback;
-        public Action<double> OnCountingFinish;
+        public Action<double, bool> OnCountingFinish;
         
         private bool isStopped = true;
 
@@ -17,9 +17,9 @@ namespace Common {
             TickCallback += tickCallback;
         } 
         
-        public void FinishCounting( bool _ ) {
+        public void FinishCounting( bool won ) {
             Stop(  );
-            OnCountingFinish?.Invoke( ElapsedSeconds );
+            OnCountingFinish?.Invoke( ElapsedSeconds, won );
         }
         
         public void Tick(float deltaTime) {

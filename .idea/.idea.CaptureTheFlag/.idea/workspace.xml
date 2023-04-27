@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96639bb-cdcf-40ff-8e8f-5d26be8c0427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/View/MenuBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaptureTheFlag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LeaderboardsUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LeaderboardsUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FinishPopup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FinishPopup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View/IMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/View/IMenu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/View/MenuBase.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleBaseBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleBaseBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectibleFlagBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectibleFlagBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Stopwatch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Stopwatch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +157,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs</url>
-          <line>20</line>
+          <line>19</line>
           <properties documentPath="E:\Repos\CaptureTheFlag\Assets\Scripts\Player\Health.cs" initialLine="24" containingFunctionPresentation="property 'Value'">
             <startOffsets>
-              <option value="563" />
+              <option value="537" />
             </startOffsets>
             <endOffsets>
-              <option value="582" />
+              <option value="556" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />

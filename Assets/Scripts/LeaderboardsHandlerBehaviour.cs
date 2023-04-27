@@ -29,7 +29,10 @@ public class LeaderboardsHandlerBehaviour : MonoBehaviour {
         stopwatch.Stopwatch.OnCountingFinish -= SaveResultIfWorth;
     }
 
-    private void SaveResultIfWorth( double result ) {
+    private void SaveResultIfWorth( double result, bool won ) {
+        if ( !won ) {
+            return;
+        }
         Leaderboards.Add( new LeaderboardRecord( playerName.String, result ) );
         Leaderboards.Sort();
         if ( Leaderboards.Count > MaxLeaderboardLength ) {
