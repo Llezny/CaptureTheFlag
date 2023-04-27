@@ -227,9 +227,10 @@ GameObject:
   - component: {fileID: 2303302366721618106}
   - component: {fileID: 2274873819800986672}
   - component: {fileID: 2284911943919747958}
-  - component: {fileID: 2234610205270784950}
   - component: {fileID: 2299006263456141132}
   - component: {fileID: 2299006263456141135}
+  - component: {fileID: 2299006264200076969}
+  - component: {fileID: 2299006264200076970}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -301,20 +302,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2234610205270784950
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2297244628229247496}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: ab35c64da7e131c48908a7066319d590, type: 3}
 --- !u!108 &2299006263456141132
 Light:
   m_ObjectHideFlags: 0
@@ -369,7 +356,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 0
   m_ColorTemperature: 6570
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -499,3 +486,28 @@ MonoBehaviour:
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
   m_AreaLightEmissiveMeshLayer: -1
+--- !u!135 &2299006264200076969
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297244628229247496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.5
+  m_Center: {x: 0.010108553, y: 0.27693042, z: 0.62876993}
+--- !u!114 &2299006264200076970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2297244628229247496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e1f9334deaa4241acd30cd9ae48e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
