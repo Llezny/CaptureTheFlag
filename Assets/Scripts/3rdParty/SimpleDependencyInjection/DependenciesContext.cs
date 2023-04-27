@@ -7,11 +7,9 @@ namespace SimpleDependencyInjection
     {
         protected DependenciesCollection dependenciesCollection = new DependenciesCollection();
         private DependenciesProvider dependenciesProvider;
-
-
+        
         private void Awake()
         {
-            //DontDestroyOnLoad(gameObject);
             Setup();
 
             dependenciesProvider = new DependenciesProvider(dependenciesCollection);

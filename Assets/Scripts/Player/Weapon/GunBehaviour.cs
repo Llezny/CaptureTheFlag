@@ -21,7 +21,7 @@ namespace Player {
         }
 
         public void Shoot( ) {
-            if ( !isShooting || isInCooldown) {
+            if ( !isShooting || isInCooldown ) {
                 return;
             }
             onShoot?.Invoke();
