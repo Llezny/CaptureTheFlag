@@ -27,7 +27,7 @@ namespace SimpleDependencyInjection
 
         protected abstract void Setup();
 
-        protected abstract void Configure();
+        protected virtual void Configure(){}
 
     }
 }

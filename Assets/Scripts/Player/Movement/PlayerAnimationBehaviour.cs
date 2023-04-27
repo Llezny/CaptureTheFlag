@@ -20,13 +20,11 @@ namespace Player {
       private void AddListeners( ) {
          InputReceiverBehaviour.OnMovePressed += Move;
          InputReceiverBehaviour.OnRunPressed += Run;
-         InputReceiverBehaviour.OnJumpPressed += Jump;
       }
 
       private void RemoveListeners( ) {
          InputReceiverBehaviour.OnMovePressed -= Move;
          InputReceiverBehaviour.OnRunPressed -= Run;
-         InputReceiverBehaviour.OnJumpPressed -= Jump;
       }
    
       private void Move( InputValue inputValue ) {
@@ -37,10 +35,5 @@ namespace Player {
       private void Run( InputValue inputValue ) {
          animator.SetBool( IsRunningHash, inputValue.isPressed );
       }
-  
-      private void Jump( InputValue inputValue ) {
-
-      }
-
    }
 }

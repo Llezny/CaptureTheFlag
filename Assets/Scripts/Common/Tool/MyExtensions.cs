@@ -11,6 +11,5 @@ namespace Common {
         public static string ToStopwatchFormat( this double timeInSeconds ) {
             return TimeSpan.FromSeconds( timeInSeconds ).ToString(@"mm\:ss\:fff");
         }
-        
     }
 }

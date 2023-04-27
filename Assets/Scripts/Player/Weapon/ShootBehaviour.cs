@@ -4,7 +4,8 @@ using Zombie;
 namespace Player {
     public class ShootBehaviour : MonoBehaviour {
 
-        [SerializeField] private GunBehaviour gunBehaviour;
+        [ SerializeField ] private GunBehaviour gunBehaviour;
+        [ SerializeField ] private Transform mainCameraTransform;
 
         private void OnEnable( ) {
             gunBehaviour.onShoot += Shoot;
@@ -15,10 +16,9 @@ namespace Player {
         }
 
         private void Shoot( ) {
-            if ( !Physics.Raycast( Camera.main.transform.position, Camera.main.transform.forward, out var hit ) ) {
+            if ( !Physics.Raycast( mainCameraTransform.position, mainCameraTransform.forward, out var hit ) ) {
                 return;
             }
-
             if ( !hit.transform.TryGetComponent<IEnemy>( out var enemy ) ) {
                 return;
             }

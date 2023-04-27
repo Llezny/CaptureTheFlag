@@ -12,27 +12,16 @@ namespace Player {
     [ SerializeField ] private float playerSpeed = 10;
     [ SerializeField ] private float runningSpeedModifier = 2;
     [ SerializeField ] private float jumpForce = 20f;
-
     
-    private PlayerMovementStateMachine playerMovementStateMachine;
     private Vector3 movementVector;
     private float moveMultiplier;
-
-    private void Awake( ) {
-      playerMovementStateMachine = new PlayerMovementStateMachine( new IdlePlayerState(), this );
-    }
 
     private void FixedUpdate( ) {
       playerRigidbody.AddForce( playerRigidbody.transform.TransformDirection(movementVector) * playerSpeed );
     }
 
-    private void Update( ) {
-      playerMovementStateMachine.Update();
-    }
-
     private void OnEnable( ) {
       AddListeners( );
-      //   SceneLinkedSMB<PlayerMovementBehaviour>.Initialise( animator, this );
     }
     
     private void OnDisable( ) {

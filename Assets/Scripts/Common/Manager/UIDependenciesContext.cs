@@ -15,8 +15,4 @@ public class UIDependenciesContext : DependenciesContext {
         dependenciesCollection.Add(new Dependency { Type = typeof(StopwatchBehaviour), Factory = DependencyFactory.FromGameObject( stopwatchBehaviour ), IsSingleton = false });
         dependenciesCollection.Add(new Dependency { Type = typeof(FlagSystem), Factory = DependencyFactory.FromGameObject( flagSystem ), IsSingleton = false });
     }
-
-    protected override void Configure( ) {
-
-    }
 }
