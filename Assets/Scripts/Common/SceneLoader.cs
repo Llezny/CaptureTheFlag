@@ -30,10 +30,5 @@ namespace Common {
 
             SceneManager.LoadSceneAsync( sceneAsset.name );
         }
-
-        public void LoadGame( ) {
-            LoadScene( SceneName.Game );
-
-        }
     }
 }

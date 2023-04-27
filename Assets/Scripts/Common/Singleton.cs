@@ -3,7 +3,7 @@ using UnityEngine;
 namespace Common  { 
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour {
         
-        private static T instance;
+        protected static T instance;
         public static T Instance {
             get {
                 if ( instance is null ) {
@@ -15,12 +15,18 @@ namespace Common  {
                 return instance;
             }
         }
-        
-        protected virtual void Awake( ) { }
+
+        protected virtual void Awake( ) {
+            if ( instance == null || instance == this ) {
+                return;
+            }
+            Destroy( gameObject );
+        }
     }
     
     public abstract class PersistentSingleton<T> : Singleton<T> where T : MonoBehaviour {
         protected override void Awake( ) {
+            base.Awake(  );
             DontDestroyOnLoad( this );
         }
     }

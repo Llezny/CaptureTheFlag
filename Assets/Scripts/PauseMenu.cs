@@ -22,11 +22,11 @@ public class PauseMenu : MonoBehaviour {
     }
 
     public void Restart( ) {
-        
+        gameplayManager.RestartGame();
     }
 
     public void Quit( ) {
-        
+        gameplayManager.QuitGame();
     }
     
     public void ToggleMenu( bool enable ) {

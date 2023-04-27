@@ -1,10 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Common;
 using Player;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameplayManager : MonoBehaviour {
 
@@ -22,6 +24,15 @@ public class GameplayManager : MonoBehaviour {
     public void PauseGame( InputValue inputValue ) {
         PauseGame( );
     }
+
+    public void RestartGame( ) {
+        SceneLoader.Instance.LoadScene( SceneName.Game );
+    }
+
+    public void QuitGame( ) {
+        SceneLoader.Instance.LoadScene( SceneName.MainMenu );
+    }
+    
     public void PauseGame( ) {
         Debug.Log( PausedGame ? "unpause" : "pause" );
         PausedGame = !PausedGame;
