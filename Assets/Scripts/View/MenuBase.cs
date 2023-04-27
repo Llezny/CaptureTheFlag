@@ -1,5 +1,4 @@
-﻿using PlasticGui.Help;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DefaultNamespace.View {
     public abstract class MenuBase : MonoBehaviour {

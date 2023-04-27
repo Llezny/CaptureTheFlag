@@ -1,5 +1,4 @@
 using DefaultNamespace;
-using SimpleDependencyInjection;
 using UnityEngine;
 
 public class FlagSystem : MonoBehaviour {

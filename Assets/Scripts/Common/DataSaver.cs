@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
-using File = UnityEngine.Windows.File;
 
 namespace Common {
     public class DataSaver {

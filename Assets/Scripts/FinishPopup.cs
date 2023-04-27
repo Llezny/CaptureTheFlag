@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Common;
 using DefaultNamespace.View;
 using SimpleDependencyInjection;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class FinishPopup : MenuBase {
